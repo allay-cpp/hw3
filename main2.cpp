@@ -4,7 +4,7 @@
 
 int main()
 {
-	std::cout << "Ââåäèòå öåëîå ÷èñëî:\n";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:\n";
 	int integer{};
 	std::cin >> integer;
 	int summa{ 0 };
@@ -13,7 +13,8 @@ int main()
 		summa += integer % 10;
 		integer /= 10;
 	}
-	std::cout << "Ñóììà öèôğ: " << summa << std::endl;
+	std::cout << "Ğ¡ÑƒĞ¼Ğ¼Ğ° Ñ†Ğ¸Ñ„Ñ€: " << summa << std::endl;
 
 	return EXIT_SUCCESS;
+
 }
