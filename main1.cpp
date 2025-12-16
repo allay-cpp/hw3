@@ -4,7 +4,7 @@
 
 int main()
 {
-	std::string question{ "Введите целое число или число '0', чтобы закончить:\n" };
+	std::string question{ "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РёР»Рё С‡РёСЃР»Рѕ '0', С‡С‚РѕР±С‹ Р·Р°РєРѕРЅС‡РёС‚СЊ:\n" };
 	std::cout << question;
 	int answer{};
 	std::cin >> answer;
@@ -16,7 +16,8 @@ int main()
 		std::cin >> answer;
 		summa += answer;
 	}
-	std::cout << "Сумма: " << summa << std::endl;
+	std::cout << "РЎСѓРјРјР°: " << summa << std::endl;
 
 	return EXIT_SUCCESS;
+
 }
