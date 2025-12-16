@@ -4,7 +4,7 @@
 
 int main()
 {
-	std::cout << "Ââåäèòå öåëîå ÷èñëî:\n";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:\n";
 	int x{};
 	std::cin >> x;
     for(int i = 1; i <= 10; i++)
@@ -14,4 +14,5 @@ int main()
 	std::cout << std::endl;
 
 	return EXIT_SUCCESS;
+
 }
